@@ -69,7 +69,7 @@ inline fun <E, V, A> Either<E, V>.fold(e: (E) -> A, v: (V) -> A): A = when (this
 
 You can read more about that and use other method here https://medium.com/@LubosMudrak/you-either-love-it-or-you-havent-used-it-yet-a55f9b866dbe
 
-#CO-ROUTINES
+# CO-ROUTINES
 
 As android developer i know what the hard is to manage different threads when you are calling network to get data and you don´t want to block main thread and still use the app
 while you are waiting the response, so with kotlin we have co-routines that allow write sequential code in asynchronous way and you will never need the hell of callbacks.
