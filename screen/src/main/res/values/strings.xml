@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MarvelApp</string>
+
+    <!-- Detail -->
+    <string name="events_label">Events</string>
+    <string name="stories_label">Stories</string>
+    <string name="series_label">Series</string>
+    <string name="comics_label">Comics</string>
+    <string name="from">From :</string>
+    <string name="until">Until :</string>
+    <string name="digital_price">Digital Price</string>
+    <string name="print_price">Print Price</string>
+
+</resources>
